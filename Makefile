@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/16 14:41:14 by aldubar           #+#    #+#              #
-#    Updated: 2021/07/01 19:53:26 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/01 19:56:02 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -86,7 +86,7 @@ SRCS		=	ft_strlen.c \
 
 OBJS		=	$(SRCS:.c=.o)
 
-CC		=	@gcc
+CC		=	@clang
 
 CFLAGS		=	-Wall -Wextra -Werror
 
