@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/16 14:41:14 by aldubar           #+#    #+#              #
-#    Updated: 2021/03/31 21:23:44 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/01 19:51:04 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -102,6 +102,8 @@ $(NAME):	$(OBJS)
 		@ar rcs $(NAME) $(OBJS)
 		@echo $(OK)
 
+install:	$(NAME)
+		@bash install.sh
 clean:
 		@echo "[....] Cleaning libft objects\c"
 		$(RM) $(OBJS)
