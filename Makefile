@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/16 14:41:14 by aldubar           #+#    #+#              #
-#    Updated: 2021/07/01 19:56:02 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/02 17:11:08 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -103,7 +103,11 @@ $(NAME):	$(OBJS)
 		@echo $(OK)
 
 install:	$(NAME)
-		@bash install.sh
+		@/bin/bash install.sh
+
+check:		fclean
+		@cd libft_checker && /bin/bash libft_checker.sh
+
 clean:
 		@echo "[....] Cleaning libft objects\c"
 		$(RM) $(OBJS)
