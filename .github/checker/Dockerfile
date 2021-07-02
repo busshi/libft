@@ -18,4 +18,4 @@ WORKDIR		/.github/checker
 
 RUN		cd .. && git clone https://github.com/busshi/libft_checker.git
 
-ENTRYPOINT	[ "bash"] ["../libft_checker.sh" ]
+ENTRYPOINT	[ "bash"] ["../libft_checker/libft_checker.sh" ]
