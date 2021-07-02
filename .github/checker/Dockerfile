@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/01 16:08:41 by aldubar           #+#    #+#              #
-#    Updated: 2021/07/02 15:30:27 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/02 15:34:04 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,6 @@ RUN		apt update && apt install -y clang make git
 
 WORKDIR		/checker
 
-RUN		git clone https://github.com/busshi/libft_checker.git
+RUN		git clone https://github.com/busshi/libft_checker.git ../libft_checker
 
-ENTRYPOINT	[ "/bin/bash", "libft_checker/libft_checker.sh" ]
+ENTRYPOINT	[ "/bin/bash", "../libft_checker/libft_checker.sh" ]
