@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/16 14:41:14 by aldubar           #+#    #+#              #
-#    Updated: 2021/07/02 17:25:38 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/02 17:39:01 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -106,7 +106,7 @@ install:	$(NAME)
 		@/bin/bash install.sh
 
 check:		fclean
-		@git clone https://github.com/busshi/libft_checker.git
+		@if [ ! -d libft_checker ]; then git clone https://github.com/busshi/libft_checker.git; fi
 		@cd libft_checker && /bin/bash libft_checker.sh
 
 clean:
