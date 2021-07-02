@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/01 16:08:41 by aldubar           #+#    #+#              #
-#    Updated: 2021/07/02 15:26:21 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/02 15:28:21 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,4 +18,4 @@ WORKDIR		/checker
 
 RUN		git clone https://github.com/busshi/libft_checker.git
 
-ENTRYPOINT	[ "/bin/bash"] ["../libft_checker/libft_checker.sh" ]
+ENTRYPOINT	[ "/bin/bash"] ["libft_checker/libft_checker.sh" ]
