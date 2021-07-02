@@ -47,6 +47,5 @@ check
 
 
 [[ $error -eq 0 ]] && echo -e "\n${green}>>> Installation completed <<<${clear}" || echo -e "\n${red}>>> Installation failed! <<<${clear}"
-echo ""
 
 exit 0
