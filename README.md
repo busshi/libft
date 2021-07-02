@@ -8,3 +8,5 @@
 Usage:
 - make : compile libft
 - make install : compile and install the libft in your system
+
+
