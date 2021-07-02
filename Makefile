@@ -6,7 +6,7 @@
 #    By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/16 14:41:14 by aldubar           #+#    #+#              #
-#    Updated: 2021/07/02 17:11:08 by aldubar          ###   ########.fr        #
+#    Updated: 2021/07/02 17:18:13 by aldubar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -120,4 +120,4 @@ fclean:		clean
 
 re:		fclean all
 
-.PHONY:		all install clean fclean re
+.PHONY:		all install check clean fclean re
