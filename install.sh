@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH_LIBFT="./"
+#PATH_LIBFT="./"
 
 error=0
 
@@ -20,7 +20,7 @@ check()
 
 ### LIBFT COMPILATION
 echo -e "${orange}[+] Compilying libft${clear}"
-make -C ${PATH_LIBFT}
+#make -C ${PATH_LIBFT}
 check
 
 
@@ -42,7 +42,8 @@ check
 
 ### CLEANING
 echo -e "\n${orange}[+] Cleaning libft${clear}"
-make -C ${PATH_LIBFT} fclean
+#make -C ${PATH_LIBFT} fclean
+make fclean
 check
 
 
