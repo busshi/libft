@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #PATH_LIBFT="./"
 
 error=0
